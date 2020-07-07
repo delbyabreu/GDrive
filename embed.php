@@ -24,8 +24,10 @@ if($_GET['url'] != ""){
 
 	<div id="myElement"></div>
 
-	<script src="https://cdn.jsdelivr.net/jwplayer/7.1.4/jwplayer.js"></script>
-	<script type="text/javascript">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
+	<script type="text/javascript" src="https://ssl.p.jwpcdn.com/player/v/8.8.6/jwplayer.js"></script>
+	<script type="text/javascript">jwplayer.key="64HPbvSQorQcd52B8XFuhMtEoitbvY/EXJmMBfKcXZQU2Rnn";</script>
 		jwplayer("myElement").setup({
 			playlist: [{
 				"sources":<?php echo $file?>
