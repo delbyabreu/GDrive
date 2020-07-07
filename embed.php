@@ -24,7 +24,7 @@ if($_GET['url'] != ""){
 
 	<div id="myElement"></div>
 
-	<script src="https://github.com/tnserver/tnserver.github.io"></script>
+	<script src="https://raw.githubusercontent.com/tnserver/tnserver.github.io/master/jwplayer/0P4vdmeO.js"></script>
 	<script type="text/javascript">
 		jwplayer("myElement").setup({
 			playlist: [{
