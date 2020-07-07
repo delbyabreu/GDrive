@@ -1,7 +1,6 @@
 
 # Google Drive Player Script
 
-<a target="_blank" href="http://google.filedeo.com/">DEMO</a>
 > Grab google drive streaming links (redirector.googlevideo.com/videoplayback?..). You can use it for video players (jwplayer, videojs, flowplayer etc).
 
 ## Installation
